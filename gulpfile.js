@@ -29,11 +29,11 @@ var gulp = require('gulp'), // GULP
 
 
     paths = {
-      js: [
-        
+      vendor_js: [
+        'node_modules/angular/angular.min.js'
       ],
       css: [
-     
+        'node_modules/bootstrap/dist/css/bootstrap.min.css'
       ]
     };
 
@@ -54,7 +54,7 @@ gulp.task('scripts', function(){
 });
 
 gulp.task('vendor-scripts', function(){
-  gulp.src(paths.js)
+  gulp.src(paths.vendor_js)
   .pipe(concat('vendor.js'))
   .pipe(gulp.dest('production/vendor/js'));
 });
