@@ -1,3 +1,10 @@
+/*
+* Gulp Template
+* Created By
+* Ray Robertson
+* ray760@rayfolio.com
+* https://github.com/ray760/Gulp_Starter_File
+*/
 /* GULP CHEAT SHEET
    
    *************** HAVE TO CREATE 'gulpfile.js' ***************
